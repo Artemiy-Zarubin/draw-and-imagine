@@ -1,0 +1,24 @@
+#game-container {
+    width: 800px;
+    height: 600px;
+    border: 1px solid black;
+    position: relative;
+  }
+  
+  .cell {
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .player {
+    background-color: red;
+  }
+  
+  .live-cell {
+    background-color: green;
+  }
+  
+  .food-cell {
+    background-color: blue;
+  }
+  
